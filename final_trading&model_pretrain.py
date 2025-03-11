@@ -26,8 +26,8 @@ from sklearn.metrics import mean_squared_error
 # 1) ENVIRONMENT SETUP
 load_dotenv()
 
-API_KEY = "PK5ARKQER67ODVKY871J"
-API_SECRET = "t1BpA9eReOaHA7zUyEI61uPs2mpBPSkgsdfwaL9c"
+API_KEY = "YOUR_API_KEY"
+API_SECRET = "YOUR_SECRET_API"
 BASE_URL = "https://paper-api.alpaca.markets" 
 
 api = tradeapi.REST(API_KEY, API_SECRET, base_url=BASE_URL, api_version="v2")
