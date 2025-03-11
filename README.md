@@ -5,7 +5,6 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Trading Strategy](#trading-strategy)
 - [Backtesting System](#backtesting-system)
 - [Project Structure](#project-structure)
@@ -46,3 +45,13 @@ This project follows a **structured, data-driven approach**:
 ```bash
 git clone https://github.com/fangyi-wu/Real-Time-Trading-System.git
 cd Real-Time-Trading-System
+```
+
+---
+## **Trading Strategy**
+Technical Indicators
+✅ **Simple Moving Averages** (SMA_10, SMA_30) – Identifies short & medium trends  
+✅ **Relative Strength Index** (RSI) – Detects overbought/oversold conditions  
+✅ **Moving Average Convergence Divergence** (MACD) – Measures trend momentum  
+✅ **Volume Weighted Average Price** (VWAP) – Filters entry/exit points  
+
